@@ -2,16 +2,10 @@ const Blog = require('../models/blogModel');
 const asyncHandler = require('express-async-handler');
 const { uploadImage } = require('../utils/cloudinary');
 
-// @desc    Create new blog
-// @route   POST /api/blogs
-// @access  Private
+
 exports.createBlog = asyncHandler(async (req, res) => {
-  try {
-    // Debug logs
-    console.log('Headers:', req.headers);
-    console.log('Files:', req.files);
-    console.log('Body:', req.body);
-    console.log('User:', req.user);
+  try 
+  
 
     // Add author to req.body
     if (!req.user || !req.user.id) {
