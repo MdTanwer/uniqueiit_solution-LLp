@@ -92,15 +92,7 @@ export const CompanyCulture = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className='relative'
             >
-              <div className='bg-gray-50 rounded-2xl p-8 h-full'>
-                <div className='w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center text-white mb-6'>
-                  {value.icon}
-                </div>
-                <h3 className='text-xl font-bold text-gray-900 mb-3'>
-                  {value.title}
-                </h3>
-                <p className='text-gray-600'>{value.description}</p>
-              </div>
+              
             </motion.div>
           ))}
         </div>
