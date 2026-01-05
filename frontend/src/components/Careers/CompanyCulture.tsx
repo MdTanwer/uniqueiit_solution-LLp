@@ -3,27 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-const values = [
-  {
-    title: 'Innovation First',
-    description:
-      'We embrace new ideas and technologies to solve complex problems.',
-    icon: (
-      <svg
-        className='w-6 h-6'
-        fill='none'
-        stroke='currentColor'
-        viewBox='0 0 24 24'
-      >
-        <path
-          strokeLinecap='round'
-          strokeLinejoin='round'
-          strokeWidth={2}
-          d='M13 10V3L4 14h7v7l9-11h-7z'
-        />
-      </svg>
-    ),
-  },
+
   {
     title: 'Collaboration',
     description: 'Working together to achieve extraordinary results.',
